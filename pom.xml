@@ -84,18 +84,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.svenruppert</groupId>
+            <artifactId>core</artifactId>
+        </dependency>
         <!--        DemoApplication?-->
-        <dependency>
-            <groupId>io.javalin</groupId>
-            <artifactId>javalin</artifactId>
-            <version>6.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.javalin</groupId>
-            <artifactId>javalin-testtools</artifactId>
-            <version>6.6.0</version>
-            <scope>test</scope>
-        </dependency>
+
         <!--    REST-Testing-->
         <dependency>
             <groupId>io.rest-assured</groupId>
